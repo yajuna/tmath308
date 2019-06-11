@@ -4,3 +4,5 @@ labs folder has .tex instructions for Matlab; python folder has .py files
 
 Click below for Binder! 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yajuna/tmath308summer19/master)
+
+To do: create markdown notebook in Jupyter
