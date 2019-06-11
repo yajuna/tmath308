@@ -1,0 +1,61 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{graphicx,float,wrapfig}
+\newcommand      {\R}         {{\mathbb R}}
+\newcommand      {\C}         {{\mathbb C}}
+\newcommand      {\vb}        {\mathbf}
+\textwidth=7in
+\textheight=9.5in
+\topmargin=-0.7in
+\oddsidemargin= 0.0in
+\evensidemargin= 0.0in
+\setlength{\parskip}{1ex plus0.2ex minus0.2ex}
+\pagestyle{myheadings}
+\markright{Tmath 308 \hfill Lab 2: Matrix and Array operations \hfill 
+Summer 2019
+\hspace{1cm}}
+\begin{document}
+(updated:\today) We work on Matrix and Array operations for this lab.
+
+\begin{enumerate}
+\item For matrix operations, the operators +, -, *, and $\widehat{}$ are interpreted in matrix sense.
+\begin{itemize}
+\item Type in {\tt A=[1 2 3;4 5 6; 7 8 9]}, and {\tt I = eye(3)}, see what you get with {\tt A-3*I}
+\item Compute $A^2$ with {\tt Asq = A $\widehat{}$ 2} 
+\item Let {\tt b = [0;1;-1]} and {\tt B=[0;1;-1;0]}. Type in {\tt Ab = A * b}, and {\tt AB = A * B} respectively. Copy and paste what you get.
+\item This problem studies two types of transpose of matrices. Let {\tt c = [1 i 3*i-2]}, type in {\tt ct = transpose(c)} and {\tt cp = c'}. Compare the results, copy and paste them here.
+\item Make two random square matrices {\tt D, E} of the same dimension, then compute {\tt diff = D*E'-(E*D')'}. List the matrix computation rule that is justified by your code.
+\item The backslash \textbackslash, is used to solve linear systems of equations. Type in {\tt x = A\textbackslash b}, copy and paste your reults here. Then type in {\tt res = b-A*x}, copy and paste your result.
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item In this problem, we study array operations. pg 20, Section 2.4.
+
+\begin{itemize}
+\item Compute a Bessel function of the second kind 
+\item Test the primality of 482023487
+\item Plot a vector field (Note: do not copy and paste examples you find online, but make your own based on the examples.) 
+\item Report current date and time
+
+\end{itemize}
+
+
+\item We have made a lot of variables for this assignement. Type in {\tt who} and paste what you see here.
+
+
+
+
+
+
+
+
+
+\end{enumerate}
+
+
+
+
+
+
+\end{document}
