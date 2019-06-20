@@ -1,8 +1,7 @@
 # tmath308summer19
-Python and Matlab code from tmath308 summer 19
-labs folder has .tex instructions for Matlab; python folder has .py files
+This repository contains the labs for TMATH 308 in Summer 2019; you can find all jupyter notebooks in the "python" folder. 
 
-Click below for Binder! 
+Click below for Jupyter Notebook! 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yajuna/tmath308summer19/master)
 
-To do: create markdown notebook in Jupyter
+It might take a few minutes for the jupyter notebook to open up. You can read the Build log while waiting. 
