@@ -1,7 +1,9 @@
 # tmath308summer19
 This repository contains the labs for TMATH 308 in Summer 2019; you can find all jupyter notebooks here. 
 
-If you have local version of these softwares, feel free to use your own machine to work on the labs. Otherwise:
+If you have local version of these softwares, feel free to use your own machine to work on the labs. 
+
+## The following is optional. The purpose is to make it easier for version control. You do not need to use Binder to run the labs##
 
 click below for Jupyter Notebook! 
 
