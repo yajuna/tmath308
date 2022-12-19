@@ -1,5 +1,5 @@
-# tmath308summer19
-This repository contains the labs for TMATH 308 in Summer 2019; you can find all jupyter notebooks here. 
+# tmath208
+This repository contains the labs for TMATH 208 (formally 308); you can find all jupyter notebooks here. 
 
 If you have local version of these softwares, feel free to use your own machine to work on the labs. 
 
